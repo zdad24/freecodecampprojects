@@ -1,0 +1,120 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel = "stylesheet" href = "./styles.css">
+</head>
+
+<body>
+
+<div>
+    <h1>My To-Do List</h1>
+<ul class = "todo-list">
+   
+
+<li><input type="checkbox" id ="keyboard">
+<label for = "keyboard"> Explore gaming keyboards</label> 
+<ul class="sub-item"> 
+    <li><a class = "sub-item-link" href = "" target = "_blank">Store Link</a></li>
+</ul>
+</li>
+
+<li><input type = "checkbox" id ="report">
+<label for = "report"> Finish the report</label> 
+<ul class="sub-item"> 
+    <li><a class = "sub-item-link" href = "" target = "_blank">Request Access</a></li>
+</ul>
+</li>
+
+<li><input type = "checkbox" id ="report">
+<label for = "report">View Phone's Warrenty</label> 
+<ul class="sub-item"> 
+    <li><a class = "sub-item-link" href = "" target = "_blank">View Receipts</a></li>
+</ul>
+</li>
+
+<li><input type = "checkbox" id ="report">
+<label for = "report">Check Processor Specs</label> 
+<ul class="sub-item"> 
+    <li><a class = "sub-item-link" href = "" target = "_blank">View Model Number</a></li>
+</ul>
+</li>
+
+
+</ul>
+
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color:  #f0f0f0;;
+  font-family: ariel, sans-sarief;
+  padding: 30px;
+  margin: auto;
+  
+}
+
+div {
+  background-color: white;
+  
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.todo-list {
+
+line-height: 2;
+list-style-type: none;
+
+}
+
+.todo-list > li {
+background-color: lightgreen;
+margin: 15px;
+padding: auto;
+}
+
+.sub-item-link{
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:focus {
+  outline: 2px solid black;
+}
+
+a:active {
+  color: brown;
+}
+
+
+
+
+
+** end of styles.css **
+

@@ -1,0 +1,34 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>Movie Review: Cars</h1>
+        <img src = "https://lumiere-a.akamaihd.net/v1/images/pp_cars_homepage_herobanner_mobile_v5_e05d00f1_a743a7cd.jpeg?region=0%2C0%2C640%2C480" alt = "Lightning McQueen and Mater">
+        <p>Cars is a 2006 Pixar animated film about a hotshot rookie race car, Lightning McQueen, who gets stranded in the forgotten town of Radiator Springs on his way to the Piston Cup Championship. While there, he meets a group of quirky residents, including Sally, Mater, and Doc Hudson, and learns about friendship and that winning isn't everything. The movie teaches him to re-evaluate his priorities, and he eventually becomes a changed car by the time he leaves. </p>
+    <p>
+    <strong>Movie Rating:</strong>
+    <span aria-hidden = "true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>
+   (9.2/10)
+    </p>
+
+    <h2>Cast Members</h2>
+    <ul>
+    <li><strong>Owen Wilson</strong> as Lightning McQueen</li>
+    <li><strong>Paul Newman</strong> as Doc Hudson</li>
+    <li><strong>Larry the Cable Guy</strong> as Mater</li>
+    </ul>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
