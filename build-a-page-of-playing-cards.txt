@@ -1,0 +1,122 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main id ="playing-cards">
+    <div class = "card">
+      <div class = "left">
+        <div>A</div>
+        <div>♠</div>
+      </div>
+      <div class = "middle">
+        <div>♠</div>
+      </div>
+      <div class = "right">
+        <div>A</div>
+        <div>♠</div>
+      </div>
+    </div>
+
+    <div class = "card">
+      <div class = "left">
+        <div>2</div>
+        <div>♣</div>
+      </div>
+      <div class = "middle">
+        <div>♣</div>
+        <div>♣</div>
+      </div>
+      <div class = "right">
+         <div>2</div>
+         <div>♣</div>
+      </div>
+    </div>
+
+    <div class = "card red">
+      <div class = "left">
+         <div>3</div>
+        <div>♥</div>
+      </div>
+      <div class = "middle">
+        <div>♥</div>
+        <div>♥</div>
+        <div>♥</div>
+      </div>
+      <div class = "right">
+        <div>3</div>
+        <div>♥</div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: #D2C0D6;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#playing-cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  min-width: 250px;
+  max-width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 80px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+}
+
+.red {
+  color: red;
+}
+
+** end of styles.css **
+
