@@ -1,0 +1,67 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pricing Plans Layout Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>Pricing Plans</h1>
+    <div class="pricing-container">
+      <div class="pricing-card basic-plan">
+        <h2>Basic</h2>
+        <p>$9/month</p>
+      </div>
+      <div class="pricing-card pro-plan">
+        <h2>Pro</h2>
+        <p>$19/month</p>
+      </div>
+      <div class="pricing-card premium-plan">
+        <h2>Premium</h2>
+        <p>$29/month</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+}
+
+.premium-plan {
+  order: 2
+}
+
+h1 {
+  text-align: center;
+}
+
+** end of styles.css **
+
