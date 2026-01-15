@@ -1,0 +1,79 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <mnav-link
+    eta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+  <header id="header">
+    <img id = "header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
+    <nav id ="nav-bar">
+      <ul>
+         <li><a class="nav-link" href="#features">Features</a></li> 
+         <li><a class="nav-link" href="#how_it_works">How It Works</a></li>  
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>      </ul>
+    </nav>
+  </header>
+  <h1>Handcrafted, home-made masterpieces</h1>
+
+  <form id="form" action="https://www.freecodecamp.org/email-submit">
+    <input id="email" name="email" type="email" placeholder="Enter your email address"></input>
+    <input id="submit" type="submit" value="GET STARTED">
+  </form>
+<section id="features">
+</section>
+
+<section id="how_it_works">
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section id="pricing">
+</section>
+
+
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#header-img{
+  width: 100px;
+}
+
+#nav-bar {
+  display:flex;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  #nav-bar ul {
+    flex-direction: column;
+  }
+}
+
+** end of styles.css **
+
