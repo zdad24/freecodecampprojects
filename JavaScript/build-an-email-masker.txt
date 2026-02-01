@@ -1,0 +1,18 @@
+** start of script.js **
+
+function maskEmail(email) {
+  let atsign = email.indexOf('@');
+  let memail = email[0] + "*".repeat(atsign-2)+ email[atsign-1] + email.slice(atsign);
+  return memail;
+}
+
+let email = "myEmail@email.com";
+console.log(maskEmail(email));
+console.log(maskEmail("apple.pie@example.com"));
+console.log(maskEmail("freecodecamp@example.com"));
+console.log(maskEmail("info@test.dev"));
+console.log(maskEmail("user@domain.org"));
+
+
+** end of script.js **
+
