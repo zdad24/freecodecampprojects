@@ -1,0 +1,16 @@
+** start of script.js **
+
+function confirmEnding(string, check) {
+  let len = check.length
+  if (string.slice(-len) === check) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+
+
+** end of script.js **
+
