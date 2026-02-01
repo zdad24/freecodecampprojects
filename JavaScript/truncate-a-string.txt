@@ -1,0 +1,13 @@
+** start of script.js **
+
+function truncateString(string, num) {
+  if (string.length > num) {
+    string = string.slice(0, num) + "...";
+  }
+  return string;
+}
+
+
+
+** end of script.js **
+
