@@ -1,0 +1,44 @@
+** start of script.js **
+
+let questions = [{category: "Math",
+                  question: "7x8=?",
+                  choices: ["42", "48", "56"],
+                  answer: "56"},
+                  {category: "Science",
+                  question: "What is the power house of the cell?",
+                  choices: ["Cell Wall", "Ribosome", "Mitochondia"],
+                  answer: "Mitochondia"},
+                  {category: "Geography",
+                  question: "How many continents does Earth have? ",
+                  choices: ["5", "6", "7"],
+                  answer: "7"}, 
+                  {category: "History",
+                  question: "When did WW2 start? ",
+                  choices: ["1936", "1939", "1942"],
+                  answer: "1939"},
+                  {category: "Math",
+                  question: "6+7=?",
+                  choices: ["12", "13", "14"],
+                  answer: "13"}];
+
+function getRandomQuestion(arr) {
+  let index = Math.floor(Math.random() * arr.length);
+  return arr[index];
+}
+
+function getRandomComputerChoice(arr) {
+  let index = Math.floor(Math.random() * arr.length);
+  return arr[index];
+}
+
+function getResults(question, choice) {
+  if (question.answer === choice) {
+    return "The computer's choice is correct!";
+  }
+  else {
+    return "The computer's choice is wrong. The correct answer is: " + question.answer;
+  }
+}
+
+** end of script.js **
+
